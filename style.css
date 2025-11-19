@@ -1,26 +1,47 @@
+/* preto : #000000e5 */
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Benton";
+    src: url(/BentonSans\ Comp\ Black.otf);
+}
+
+
+body { 
+    font-family: myriad pro, sans-serif;
+    background-image: url(/imgs/imgsSite/BG.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* código do cabeçalho */
+
 #Cabeçalho {
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    width: 100%;
-    background-color: #0d0d0d;
+    width: 100vw;
+    background-color: #0D0D0D;
     padding: 20px;
 }
 
-#imgLogo {
+#logo {
     width: 150px;
     height: auto;
 }
 
 nav a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 0 15px;
     font-size: 24px;
@@ -30,33 +51,33 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    width: 100%;
-    padding: 20px;
+/* parte do corpo do site  */
+
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
 }
 
-.box {
-    height: 70vh;
-    border: 2px solid black;
-    box-sizing: border-box;
-    padding: 20px;
+#title {
+   
+    margin-left: 100px;
+    margin-right: 200px;
+    justify-content: left;
 }
 
-.box:nth-child(1) {
-    background-color: #1e90ff;
+#title h1 {
+    font-family: "Benton";
+    font-size: 10em;
+    color: #000000e5;
+    
 }
 
-.box:nth-child(2) {
-    background-color: #ff0000;
-}
-
-.box:nth-child(3) {
-    background-color: #ff0000;
-}
-
-.box:nth-child(4) {
-    background-color: #1e90ff;
+#imagem img {
+    
+    margin-right: 100px;
+    width: ;
 }

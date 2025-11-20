@@ -57,7 +57,7 @@ nav a:hover {
 
 /* parte do corpo do site */
 
-#content {
+.content {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,14 +66,14 @@ nav a:hover {
     gap: 50px;
 }
 
-#title {
+.title {
     display: flex;
     margin-left: 100px;
     margin-right: 200px;
     justify-content: left;
 }
 
-#title h1 {
+.title h1 {
     font-family: "Benton";
     font-size: 10em;
     color: #000000e5;

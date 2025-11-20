@@ -16,7 +16,8 @@
 
 body { 
     font-family: myriad pro, sans-serif;
-    background-image: url(/imgs/imgsSite/BG.png);
+    /* background-image: url(/imgs/imgsSite/BG.png);*/
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255, 255, 255, 0.7)), url("/imgs/imgsSite/BG.png");
     background-size: 100%;
     display: flex;
     flex-direction: column;
@@ -53,31 +54,114 @@ nav a:hover {
 
 /* parte do corpo do site  */
 
-#content {
+.content {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     margin-top: 50px;
     gap: 50px;
 }
 
-#title {
-   
+.title {
+    display: grid;
     margin-left: 100px;
-    margin-right: 200px;
+    margin-right: 200px;   
     justify-content: left;
+
 }
 
-#title h1 {
+.title h1 {
+    margin-top: 100px;
     font-family: "Benton";
     font-size: 10em;
     color: #000000e5;
     
 }
 
+.title p {
+    margin-left: 10px;
+    font-size: 24px;
+    color: #000000e5;
+}
+
 #imagem img {
     
     margin-right: 100px;
-    width: ;
+}
+
+.textAlign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textAlign h2 {
+    font-size: 7em;
+    font-family: "Benton";
+    color: #000000e5;
+    margin-bottom: 30px;
+}
+
+#frames {
+    display: flex;
+    gap: 80px;
+}
+
+.box-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    border: 2px solid #000000e5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.box-frame h3 {
+    font-family: "Benton";
+    font-size: 2em;
+    color: #000000e5;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.box-frame p {
+    width: 350px;
+    text-align: left;
+}
+
+.box-frame img {
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* códido da página dos vilões  */
+
+.contentPag3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+#boxi {
+    height: 200px;
+}
+
+#imagemVenom img {
+   width: 700px;
+}
+
+#SinisterSix {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 24px;
+    color: #000000e5;
 }

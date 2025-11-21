@@ -165,3 +165,38 @@ nav a:hover {
     font-size: 24px;
     color: #000000e5;
 }
+
+.boxVilao {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+
+.boxVilaoItem {
+    background-color: #0D0D0D;
+    height: 400px;
+}
+
+.boxVilaoItem img {
+    width: 250px;
+    border-bottom: solid 10px #ff0000e5;
+}
+
+.boxVilaoItem h3 {
+    font-family: "Benton";
+    font-size: 1.5em;
+    color: #ffffffe5;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.boxVilaoItem p {
+    font-family: "Benton";
+    font-size: 1em;
+    color: #484545e5;
+    margin-top: 40px;
+    margin-left: 20px;
+}

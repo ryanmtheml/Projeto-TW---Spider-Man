@@ -27,6 +27,8 @@ body {
 /* código do cabeçalho */
 
 #Cabeçalho {
+    z-index: 20;
+    position:  fixed;
     font-weight: 600;
     display: flex;
     justify-content: space-between;
@@ -199,4 +201,93 @@ nav a:hover {
     color: #484545e5;
     margin-top: 40px;
     margin-left: 20px;
+}
+
+/* codigo da pagina universo  */
+
+
+
+.universo-section {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.universo-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.universo-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+}
+
+/* LISTA HORIZONTAL */
+.universo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* ITEM */
+.universo-item {
+    display: flex;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(255, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.universo-item:hover {
+    transform: translateY(-4px);
+}
+
+/* IMAGEM À ESQUERDA */
+.universo-item img {
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+}   
+
+/* TEXTO À DIREITA */
+.universo-texto {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.universo-texto h3 {
+    font-family: "Benton";
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.universo-texto p {
+    color: #ddd;
+    line-height: 1.4;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+    .universo-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .universo-item img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .universo-texto {
+        padding: 15px;
+    }
 }

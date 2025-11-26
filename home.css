@@ -157,20 +157,19 @@ nav a:hover {
 
 @media (max-width: 1200px) {
     .content {
-        height: auto;
+        
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 100px;}
 
     .title {
-        margin-top: 100px;
         margin-left: 0px;
         margin-right: 0px;
         justify-content: center;
     }
     .title h1 {
-        font-size: 8rem;
+        font-size: 6rem;
     }
     #imagem img {
         margin-right: 0px;

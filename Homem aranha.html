@@ -8,59 +8,72 @@
 </head>
 <body>
     <header id="Cabeçalho">
+
+         <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+        </label>
+
         <img src="imgs/imgsSite/logoSpiderMan.png" alt="Logo do Homem Aranha" id="logo">
-        <nav>
-            <a href="/index.html">Home</a>
-            <a href="/Homem aranha.html">Homem Aranha</a>
-            <a href="/viloes.html">Vilões</a>
-            <a href="/Universo.html">Universo</a>
+
+        <nav class="nav-menu">
+
+            <a href="/index.html" class="nav-item">Home</a>
+            <a href="/Homem aranha.html" class="nav-item">Homem Aranha</a>
+            <a href="/viloes.html" class="nav-item">Vilões</a>
+            <a href="/Universo.html" class="nav-item">Universo</a>
+
         </nav>
     </header>
-    <div class="content">
-    <div id="imagem"><img src="imgs/imgsSite/spider2.png" alt=""></div>   
-    <div class="title">
-    <div><h1>QUEM É?</h1></div>
-    <div><p>O Homem-Aranha, identidade assumida por Peter Parker, é um herói marcado pela coragem, pela empatia e por um humor que o acompanha 
-        mesmo nos momentos mais perigosos. Apesar de enfrentar ameaças constantes, ele mantém sempre uma atitude leve, transformando o medo em 
-        piadas e improviso, algo que se tornou uma das suas características mais reconhecíveis. Cresceu entre responsabilidades e desafios 
-        pessoais, aprendendo cedo que os seus dons não o tornavam especial apenas pelo poder, mas pela forma como escolhia usá-los. Inteligente,
-        dedicado e profundamente humano. A sua determinação nasce da lição que o guia desde o início: “Com grandes poderes vêm grandes 
-        responsabilidades.”
-        </p></div>
-    </div>
-    </div>
-    <div class="textAlign">
-        <div><h2>OS SEUS PODERES:</h2></div>
-        <div id="frames">
-            <div class="box-frame">
-                <h3>FORÇA</h3>
-                <p>A força do Homem-Aranha é muito superior à de qualquer ser humano comum. Após a mordida da aranha, 
-                    Peter Parker passou a ser capaz de levantar carros, deter inimigos poderosos e saltar alturas impressionantes.
-                     A sua agilidade e resistência acompanham essa força, permitindo-lhe mover-se rapidamente entre prédios e enfrentar 
-                     ameaças que seriam impossíveis de combater sem as suas habilidades.
-                </p>
-                <img src="/imgs/imgsSite/força.jpeg" alt="">
-            </div>
-            <div class="box-frame">
-                <h3>SENTIDO-ARANHA</h3>
-                <p>
-                    O sentido-aranha é uma habilidade precognitiva que permite ao Homem-Aranha perceber perigos iminentes. 
-                    Funciona como um alerta que o avisa quando algo está errado, permitindo-lhe reagir rapidamente a ameaças. 
-                    Esse sentido é extremamente sensível, capaz de detectar movimentos e intenções hostis, mesmo quando o perigo 
-                    não está visível. É a sua linha de defesa mais confiável.
-                </p>
-                <img src="/imgs/imgsSite/SentidoAranha.jpg" alt="">
-            </div>
-            <div class="box-frame">
-                <h3>TEIAS</h3>
-                <p>Embora o Homem-Aranha tenha a capacidade de produzir teias organicamente em algumas versões, 
-                    a mais conhecida é a utilização dos lançadores de teia que ele mesmo desenvolveu. Esses dispositivos permitem 
-                    que ele dispare teias adesivas para se balançar entre prédios, capturar inimigos e criar barreiras. As teias são 
-                    incrivelmente resistentes e versáteis, sendo uma das ferramentas mais icônicas do herói.
-                </p>
-                <img src="/imgs/imgsSite/teia.webp" alt="">
+<main>
+        <div class="content">
+            <div id="imagem"><img src="imgs/imgsSite/spider2.png" alt=""></div>   
+            <div class="title">
+            <div><h1>QUEM É?</h1></div>
+            <div class="about"><p>O Homem-Aranha, identidade assumida por Peter Parker, é um herói marcado pela coragem, pela empatia e por um humor que o acompanha 
+                mesmo nos momentos mais perigosos. Apesar de enfrentar ameaças constantes, ele mantém sempre uma atitude leve, transformando o medo em 
+                piadas e improviso, algo que se tornou uma das suas características mais reconhecíveis. Inteligente,
+                dedicado e profundamente humano. A sua determinação nasce da lição que o guia desde o início: “Com grandes poderes vêm grandes 
+                responsabilidades.”
+                </p></div>
             </div>
         </div>
-    </div>    
+        <div class="textAlign">
+            <div><h2>OS SEUS PODERES:</h2></div>
+            <div id="frames">
+                <div class="box-frame">
+                    <h3>FORÇA</h3>
+                    <p>A força do Homem-Aranha é muito superior à de qualquer ser humano comum. Após a mordida da aranha, 
+                        Peter Parker passou a ser capaz de levantar carros, deter inimigos poderosos e saltar alturas impressionantes.
+                        A sua agilidade e resistência acompanham essa força, permitindo-lhe mover-se rapidamente entre prédios e enfrentar 
+                        ameaças que seriam impossíveis de combater sem as suas habilidades.
+                    </p>
+                    <img src="/imgs/imgsSite/força.jpeg" alt="">
+                </div>
+                <div class="box-frame">
+                    <h3>SENTIDO-ARANHA</h3>
+                    <p>
+                        O sentido-aranha é uma habilidade precognitiva que permite ao Homem-Aranha perceber perigos iminentes. 
+                        Funciona como um alerta que o avisa quando algo está errado, permitindo-lhe reagir rapidamente a ameaças. 
+                        Esse sentido é extremamente sensível, capaz de detectar movimentos e intenções hostis, mesmo quando o perigo 
+                        não está visível. É a sua linha de defesa mais confiável.
+                    </p>
+                    <img src="/imgs/imgsSite/SentidoAranha.jpg" alt="">
+                </div>
+                <div class="box-frame">
+                    <h3>TEIAS</h3>
+                    <p>Embora o Homem-Aranha tenha a capacidade de produzir teias organicamente em algumas versões, 
+                        a mais conhecida é a utilização dos lançadores de teia que ele mesmo desenvolveu. Esses dispositivos permitem 
+                        que ele dispare teias adesivas para se balançar entre prédios, capturar inimigos e criar barreiras. As teias são 
+                        incrivelmente resistentes e versáteis, sendo uma das ferramentas mais icônicas do herói.
+                    </p>
+                    <img src="/imgs/imgsSite/teia.webp" alt="">
+                </div>
+            </div>
+    </div>
+</main>    
 </body>
 </html>

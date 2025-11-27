@@ -169,7 +169,9 @@ main{
     margin-bottom: 50px;
 }
 
-.textAlign h2 {
+
+
+.textAlign h1, h2 {
     font-size: 6em;
     font-family: "Benton";
     color: #000000e5;
@@ -306,12 +308,13 @@ main{
     color: #ffffffe5;
     margin-top: 10px;
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .boxVilaoItem p {
     font-family: "Benton";
     font-size: 1em;
-    color: #484545e5;
+    color: #dfdfdfe5;
     margin-top: 40px;
     margin-left: 20px;
 }

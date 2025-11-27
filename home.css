@@ -50,6 +50,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: #ff0000;
 }
 
 
@@ -154,6 +155,11 @@ nav a:hover {
 #imagem img {
     width: 600px;
     margin-right: 100px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#imagem img:hover {
+    transform: scale(1.05);
 }
 
 @media (max-width: 1200px) {

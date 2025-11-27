@@ -53,6 +53,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: #ff0000;
 }
 
 /* fazendo menu de hamburguer para telas menores */
@@ -143,7 +144,7 @@ nav a:hover {
 
 .title h1 {
     font-family: "Benton";
-    font-size: 10em;
+    font-size: 8em;
     color: #000000e5;
     
 }
@@ -167,6 +168,7 @@ main{
     align-items: center;
     gap: 30px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 
@@ -196,6 +198,7 @@ main{
     padding: 20px;
     width: 400px;
     height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .box-frame h3 {
@@ -216,6 +219,19 @@ main{
     margin-top: 20px;
     width: 350px;
     border-radius: 10px;
+}
+
+.box-frame:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+}
+
+#imagem img {
+    transition: transform 0.3s ease;
+}
+
+#imagem img:hover {
+    transform: scale(1.05);
 }
 
 @media (max-width: 1100px) {
@@ -271,9 +287,6 @@ main{
     height: 200px;
 }
 
-#imagemVenom img {
-   width: 700px;
-}
 
 #SinisterSix {
     margin-left: 100px;
@@ -289,12 +302,18 @@ main{
     align-items: center;
     justify-content: center;
     margin-bottom: 100px;
-    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boxVilao :hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.12);
 }
 
 .boxVilaoItem {
     background-color: #0D0D0D;
     height: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .boxVilaoItem img {

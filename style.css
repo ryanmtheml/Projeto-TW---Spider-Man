@@ -302,7 +302,7 @@ main{
     border-bottom: solid 10px #ff0000e5;
 }
 
-.boxVilaoItem h3 {
+.boxVilaoItem h2 {
     font-family: "Benton";
     font-size: 1.5em;
     color: #ffffffe5;
@@ -367,7 +367,7 @@ main{
     justify-content: center;
 }
 
-.universo-texto h3 {
+.universo-texto h2 {
     font-family: "Benton";
     margin-bottom: 5px;
     color: #ffffff;
